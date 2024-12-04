@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>UrbanCities - Noticias</title>
+        <link>https://urbancities.es</link>
+        <description>Últimas noticias y artículos de UrbanCities</description>
+        <language>es</language>
+
+        <!-- Artículos -->
+        <item>
+            <title>La nueva colección de UrbanCities</title>
+            <link>https://urbancities.es/nueva-coleccion</link>
+            <description>La nueva colección de ropa de UrbanCities combina estilo urbano y elegancia para jóvenes dinámicos.</description>
+            <pubDate>Tue, 04 Dec 2024 10:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Curiosidades de UrbanCities</title>
+            <link>https://urbancities.es/curiosidades</link>
+            <description>Descubre cómo UrbanCities ha revolucionado la moda urbana con su primera colección.</description>
+            <pubDate>Mon, 03 Dec 2024 15:00:00 GMT</pubDate>
+        </item>
+
+        <!-- Más artículos pueden añadirse aquí -->
+    </channel>
+</rss>

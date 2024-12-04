@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #55a0d5;
+    color: rgb(245, 244, 244);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #2f385f;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex; /* Usamos flexbox para poner los elementos en una fila */
+    justify-content: center; /* Centramos los elementos horizontalmente */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 30px; /* Añadimos espacio entre los elementos */
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #6d9dd6;
+    border-radius: 5px;
+    display: block;
+    width: 100px; /* Ajustamos el tamaño del botón */
+    text-align: center; /* Alineamos el texto al centro */
+}
+
+nav a:hover {
+    background-color: #556cbe;
+}
+
+main {
+    display: flex;
+    margin: 1rem;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-right: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #f4f4f4;
+    margin-bottom: 1rem;
+}
+
+aside {
+    flex: 1;
+    padding: 1rem;
+    background-color: #e4e4e4;
+}
+
+img {
+    width: 300px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    border-radius: 20px;
+}
+
+h2 {
+    color: rgb(61, 146, 165);
+}
+
