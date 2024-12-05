@@ -9,6 +9,7 @@ header {
     color: rgb(245, 244, 244);
     padding: 1rem;
     text-align: center;
+    font-size: 30px;
 }
 
 nav {
@@ -17,15 +18,15 @@ nav {
 }
 
 nav ul {
-    display: flex; /* Usamos flexbox para poner los elementos en una fila */
-    justify-content: center; /* Centramos los elementos horizontalmente */
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    margin: 0 30px; /* Añadimos espacio entre los elementos */
+    margin: 0 30px;
 }
 
 nav a {
@@ -35,8 +36,8 @@ nav a {
     background-color: #6d9dd6;
     border-radius: 5px;
     display: block;
-    width: 100px; /* Ajustamos el tamaño del botón */
-    text-align: center; /* Alineamos el texto al centro */
+    width: 100px;
+    text-align: center;
 }
 
 nav a:hover {
@@ -67,7 +68,7 @@ aside {
     background-color: #e4e4e4;
 }
 
-img {
+.container1{
     width: 300px;
 }
 
@@ -86,4 +87,35 @@ fieldset {
 h2 {
     color: rgb(61, 146, 165);
 }
+.rss-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rss-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.rss-container a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 16px;
+}
+
+.rss-container a:hover {
+    color: #0056b3;
+}
+
+.container2 a{
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 16px;
+}
+
+
+
+
 
